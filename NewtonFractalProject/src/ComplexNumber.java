@@ -79,6 +79,10 @@ public class ComplexNumber {
 		return sin().divide(cos());
 	}
 	
+	public ComplexNumber power() {
+		return null;
+	}
+	
 	public static void main(String[] args) {
 		ComplexNumber test = new ComplexNumber(1, 2);
 		ComplexNumber test2 = new ComplexNumber(3, 4);
